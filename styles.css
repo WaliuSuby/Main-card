@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    background: #f5d04e;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+main{
+ margin-top: 4%;
+}
+.card-box{
+    width: 25%;
+    height: 80vh;
+    border: 1px solid black;
+    border-radius: 1.5rem;
+    background-color: white;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 10px 10px 3px #030303;
+    
+}
+.card-img img{
+    width: 100%;
+    border-radius: 1.5rem;
+}
+.btn{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.btn button{
+    background-color: #f5d04e;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+}
+.btn p{
+color: #b2b2b2;
+font-size: 0.70rem ;
+font-weight: bold;
+}
+.html{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.html p{
+    color: #b2b2b2;
+    font-size: 0.80rem;
+}
+.my-pix{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.70rem;
+    margin-left: 1rem;
+    transform: translateY(30px);
+}
+.my-pix img{
+    width: 25%;
+    height: 50px;
+    border-radius: 100%;
+}
+.my-pix p{
+    color: black;
+    font-size: 0.80rem;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 600px){
+    .card-box{
+        width: 75%;
+        height: 65vh;
+        margin-top: 23%;
+    }
+    .btn{
+        margin-left: 1rem;
+    }
+    .btn button{
+        margin-bottom: 10px;
+    }
+    .btn p{
+        font-size: 1rem;
+        margin-bottom: 40px;
+    }
+    .html{
+        margin-left: 1rem;
+    }
+    .my-pix{
+        margin-left: 1rem;
+
+    }
+    .html p{
+        width: 90%;
+        font-size: 1rem;
+        margin-bottom: 25px;
+        line-height: 1.5rem;
+    }
+    .my-pix p{
+        font-size: 1rem;
+    }
+}
