@@ -70,31 +70,38 @@ font-weight: bold;
 @media (max-width: 600px){
     .card-box{
         width: 75%;
-        height: 65vh;
+        height: auto;
         margin-top: 23%;
     }
     .btn{
         margin-left: 1rem;
     }
     .btn button{
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
     .btn p{
         font-size: 1rem;
-        margin-bottom: 40px;
+        margin-bottom: 0;
     }
     .html{
         margin-left: 1rem;
+        margin-bottom: 0;
     }
     .my-pix{
         margin-left: 1rem;
-
+    }
+    .html h4{
+        
+        margin-bottom: 0;
     }
     .html p{
-        width: 90%;
-        font-size: 1rem;
-        margin-bottom: 25px;
+        width: 100%;
+        font-size: 0.90rem;
+        margin-bottom: 0;
         line-height: 1.5rem;
+    }
+    .my-pix{
+        margin-bottom: 1.5rem;
     }
     .my-pix p{
         font-size: 1rem;
